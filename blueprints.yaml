@@ -1,0 +1,30 @@
+name: Seolyzer
+version: 0.1.0
+description: Seolyzer Integration
+icon: plug
+author:
+  name: Basile Trujillo
+  email: basiletrujillo@gmail.com
+homepage: https://github.com/BasileTrujillo/grav-plugin-seolyzer
+keywords: grav, plugin, seo
+bugs: https://github.com/BasileTrujillo/grav-plugin-seolyzer/issues
+docs: https://github.com/BasileTrujillo/grav-plugin-seolyzer/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    key:
+      type: text
+      label: Seolyzer Key
+      help: Key provided by Seolyzer configuration tool and included in the provided PHP file.
