@@ -1,5 +1,5 @@
-# v0.1.0
-##  12/20/2017
+# v1.0.0
+##  02/19/2018
 
-1. [](#new)
+1. [1.0.0](#new)
     * Include Seolyzer PHP file on front-end startup
