@@ -1,4 +1,4 @@
-# Seolyzer Plugin
+# [WIP] Seolyzer Plugin
 
 [Seolyzer](https://seolyzer.io/) integration.
 
