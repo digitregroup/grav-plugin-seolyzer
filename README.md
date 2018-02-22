@@ -1,8 +1,9 @@
-# [WIP] Seolyzer Plugin
+# Seolyzer Plugin
 
 [Seolyzer](https://seolyzer.io/) integration.
 
-The **Seolyzer** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Seolyzer Integration
+The **Seolyzer** Plugin is for [Grav CMS](http://github.com/getgrav/grav).
+This plugin wrap the installation of Seolyzer in your Grav website using the PHP require method.
 
 ## Installation
 
@@ -37,15 +38,9 @@ enabled: true
 key: xxxxxxxxxxxxxxx
 ```
 
-## Usage
-
-**Describe how to use the plugin.**
-
-## Credits
-
-**Did you incorporate third-party code? Want to thank somebody?**
+Then in your Seolyzer account, you just need to download the `seolyzer-xxxxxxxxxxxxxxx.php` file and put it in `user/data/seolyzer`in your Grav project.
 
 ## To Do
 
-- [ ] Future plans, if any
+- [ ] Unit tests
 
