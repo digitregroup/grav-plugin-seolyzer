@@ -53,6 +53,7 @@ class SeolyzerPlugin extends Plugin
 
         // Load the Seolyzer PHP File
         require_once $fileToInclude;
+
         $this->grav['debugger']->addMessage('Seolyzer initialized with key: ' . $seolyzerKey);
     }
 }
